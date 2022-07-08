@@ -1,0 +1,34 @@
+.calandar-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-auto-flow: row;
+  overflow: auto;
+}
+
+.flex-ele,
+.faded-ele {
+  width: 60px;
+  height: 50px;
+  margin: 2px;
+  padding: 2px;
+}
+
+.flex-ele {
+  border: 1px solid rgb(145, 152, 214);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.faded-ele {
+  color: grey;
+}
+
+.flex-sub-ele {
+  margin: 1px;
+}
+.higlight-ele {
+  background-color: rgb(107, 160, 230);
+  border: 1px solid black;
+  border-radius: 5px;
+}
